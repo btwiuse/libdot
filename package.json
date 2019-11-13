@@ -3,7 +3,6 @@
   "version": "3.0.0",
   "description": "Grab bag of JS utility libraries",
   "main": "js/utf8.js",
-  "unpkg": "js/libdot.min.js",
   "repository": {
     "type": "git",
     "url": "https://chromium.googlesource.com/apps/libapps.git"
@@ -12,10 +11,7 @@
   "license": "BSD-3-Clause",
   "files": [
     "README.md",
-    "js/libdot.js",
-    "js/utf8.js",
-    "js/libdot.min.js",
-    "js/libdot.min.js.map"
+    "js/utf8.js"
   ],
   "bugs": {
     "url": "https://goo.gl/vb94JY",
