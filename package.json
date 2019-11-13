@@ -2,7 +2,7 @@
   "name": "libdot",
   "version": "3.0.0",
   "description": "Grab bag of JS utility libraries",
-  "main": "js/libdot.js",
+  "main": "js/lib_utf8.js",
   "unpkg": "js/libdot.min.js",
   "repository": {
     "type": "git",
@@ -13,6 +13,7 @@
   "files": [
     "README.md",
     "js/libdot.js",
+    "js/lib_utf8.js",
     "js/libdot.min.js",
     "js/libdot.min.js.map"
   ],
