@@ -13,7 +13,7 @@
   "files": [
     "README.md",
     "js/libdot.js",
-    "js/lib_utf8.js",
+    "js/utf8.js",
     "js/libdot.min.js",
     "js/libdot.min.js.map"
   ],
