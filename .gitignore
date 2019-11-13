@@ -9,7 +9,9 @@ dist
 *.min.js
 *.js.map
 
-/js/libdot.js
+!/js/libdot.js
+!/js/libdot.min.js
+!/js/libdot.min.js.map
 
 # npm related dirs.
 node_modules
