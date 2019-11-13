@@ -13,7 +13,7 @@
 /**
  * A stateful UTF-8 decoder.
  */
-UTF8Decoder = function() {
+exports.UTF8Decoder = function() {
   // The number of bytes left in the current sequence.
   this.bytesLeft = 0;
   // The in-progress code point being decoded, if bytesLeft > 0.
@@ -31,7 +31,7 @@ UTF8Decoder = function() {
  *     0xFF.
  * @return {String} The data decoded into a JavaScript UTF-16 string.
  */
-UTF8Decoder.prototype.decode = function(str) {
+exports.UTF8Decoder.prototype.decode = function(str) {
   var ret = '';
   for (var i = 0; i < str.length; i++) {
     var c = str.charCodeAt(i);
@@ -97,5 +97,3 @@ UTF8Decoder.prototype.decode = function(str) {
   }
   return ret;
 };
-
-export UTF8Decoder;
